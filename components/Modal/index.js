@@ -21,7 +21,7 @@ import api from '../../pages/api/apiConfig';
 import React, { useState, useEffect } from 'react';
 
 
-const CharacterModal = ({ character, open, setOpen }) => {
+export const CharacterModal = ({ character, open, setOpen }) => {
   const { toggleColorMode } = useColorMode()
   const textColor = useColorModeValue('#ec1d24', '#ccc')
   const [scrollBehavior, setScrollBehavior] = React.useState('inside')
@@ -62,7 +62,7 @@ const CharacterModal = ({ character, open, setOpen }) => {
     <Modal
       onClose={onClose}
       isOpen={isOpen}
-      scrollBehavior={scrollBehavior}
+      scrollBehavior='inside'
     >
       <ModalOverlay />
       <ModalContent>
@@ -129,4 +129,3 @@ const CharacterModal = ({ character, open, setOpen }) => {
   )
 }
 
-export default CharacterModal;

@@ -28,7 +28,7 @@ import {
 } from '@chakra-ui/icons';
 import api from './api/apiConfig';
 import Card from '../components/Card'
-import CharacterModal from '../components/Modal';
+import {CharacterModal} from '../components/Modal';
 import theme from '../components/theme';
 
 
