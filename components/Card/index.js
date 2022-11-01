@@ -9,6 +9,7 @@ export default function Card({ character, setCharacter }) {
         <Flex 
         key={character.id}
         alignItems='center'
+        flexWrap='wrap'
         >
             <Box 
             maxW='sm' 

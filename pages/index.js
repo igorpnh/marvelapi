@@ -165,7 +165,7 @@ export default function Home({ data }) {
         </Flex>
 
         {/*CARD CONTENT*/}
-        <Grid templateColumns='repeat(5, 1fr)' gap={6}>
+        <Grid templateColumns='1fr 1fr 1fr 1fr' gap='0.8rem'>
           <Card
             character={data.results}
             setCharacter={(e) => handleOpenCharacter(e)}
