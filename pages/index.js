@@ -27,8 +27,8 @@ import {
   ArrowLeftIcon
 } from '@chakra-ui/icons';
 import api from './api/apiConfig';
-import Card from './components/Card';
-import CharacterModal from './components/Modal';
+import Card from '../components/Card'
+import CharacterModal from '../components/Modal';
 import theme from './theme';
 
 

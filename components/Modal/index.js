@@ -17,7 +17,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 
-import api from '../../api/apiConfig';
+import api from '../../pages/api/apiConfig';
 import React, { useState, useEffect } from 'react';
 
 
