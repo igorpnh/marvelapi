@@ -94,7 +94,7 @@ export const CharacterModal = ({ character, open, setOpen }) => {
             </Center>
           ) : comics.length > 0 ? (
             <SimpleGrid
-              columns={{ base: 1, md: 2, lg: 4 }}
+              columns={{ base: 2, md: 3, lg: 4 }}
               spacing={5}
               mt={5}
             >
