@@ -29,7 +29,7 @@ import {
 import api from './api/apiConfig';
 import Card from '../components/Card'
 import CharacterModal from '../components/Modal';
-import theme from './theme';
+import theme from '../components/theme';
 
 
 export default function Home({ data }) {
